@@ -1,0 +1,30 @@
+{
+  "header":{
+    "nav":[
+      {
+        "link":"#intro",
+        "title":"Home-1"
+      },
+      {
+        "link": "#services",
+        "title": "Services-1"
+      },
+      {
+        "link": "#portfolio",
+        "title": "Portfolio"
+      },
+      {
+        "link": "#journal",
+        "title": "Journal"
+      },
+      {
+        "link": "#about",
+        "title": "About us"
+      },
+      {
+        "link": "#contact",
+        "title": "Contact"
+      }
+    ]
+}
+}

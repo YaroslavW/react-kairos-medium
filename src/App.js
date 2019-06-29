@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import $ from 'jquery';
 import Header from './Components/Header';
 import CallToAction from "./Components/CallToAction";
 import About from './Components/About';
@@ -10,10 +11,34 @@ import Footer from './Components/Footer';
 import Map from './Components/Map';
 import Contact from './Components/Contact';
 
-function App() {
+class App extends Component {
+  state = {
+    siteData: {}
+  };
+  getSiteData() {
+    const domenName = document.domain
+    $.ajax({
+      url: `http://${domenName}:3000/siteData.json`,
+      dataType: "json",
+      cache: false,
+      success: function(data) {
+        this.setState({ siteData: data });
+      }.bind(this),
+      error: function(xhr, status, err) {
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount() {
+    this.getSiteData();
+  }
+
+  render() {
   return (
     <div>
-      <Header />
+      <Header data={this.state.siteData.header}/>
       <Intro />
       <Services />
       <Portfolio />
@@ -25,6 +50,7 @@ function App() {
       <Footer />
     </div>
   );
+  }
 }
 
 export default App;

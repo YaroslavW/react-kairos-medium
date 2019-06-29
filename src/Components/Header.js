@@ -1,13 +1,21 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({data}) => {
+  if(data){
+        var nav = data.nav.map((val, index) => (
+          <li key={index}>
+            <a  href={val.link} title="">
+              {val.title}
+            </a>
+          </li>
+        ));
+  }
   return (
     <header className="mobile">
       <div className="row">
         <div className="col full">
           <div className="logo">
-            {/* eslint-disable-next-line */}
-            <a href="#">
+            <a href="#intro">
               <img alt="" src="images/logo.png" />
             </a>
           </div>
@@ -25,24 +33,7 @@ const Header = () => {
               Hide navigation
             </a>
             <ul id="nav" className="nav">
-              <li>
-                <a href="#intro">Home</a>
-              </li>
-              <li>
-                <a href="#services">Services</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#journal">Journal</a>
-              </li>
-              <li>
-                <a href="#about">About Us</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
+              {nav}
             </ul>
           </nav>
         </div>
