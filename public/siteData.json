@@ -38,5 +38,48 @@
       "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti eos et accusamus."
     }
   ]
+},
+"services":{
+  "header":[
+    {
+      "title":"Services-1",
+      "text":"Our list of awesome services."
+    },
+    {
+      "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.-1"
+    }
+  ],
+  "items":[
+    {
+      "icon":"icon-desktop",
+      "caption":"Webdesign",
+      "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiu voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et molestias iusto odio dignissimos.-1"
+    },
+    {
+      "icon": "icon-star",
+      "caption": "Branding",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos.-2"
+    },
+    {
+      "icon": "icon-camera",
+      "caption": "Photography",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et molestias quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos.-3"
+    },
+    {
+      "icon": "icon-globe",
+      "caption": "Web Development",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio molestias dignissimos.-4"
+    },
+    {
+      "icon": "icon-list-alt",
+      "caption": "User Interface",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio molestias dignissimos.-5"
+    },
+    {
+      "icon": "icon-print",
+      "caption": "Printing",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio molestias dignissimos.-6"
+    }
+  ]
 }
 }

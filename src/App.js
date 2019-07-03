@@ -40,7 +40,7 @@ class App extends Component {
     <div>
       <Header data={this.state.siteData.header}/>
       <Intro data={this.state.siteData.intro} />
-      <Services />
+      <Services data={this.state.siteData.services}/>
       <Portfolio />
       <Journal />
       <About />
