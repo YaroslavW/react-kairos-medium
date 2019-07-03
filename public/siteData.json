@@ -81,5 +81,39 @@
       "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio molestias dignissimos.-6"
     }
   ]
+},
+"journal":{
+  "header":[
+    {
+      "title":"Journal-1",
+      "text":"Our latest posts and rants.-1"
+    }
+  ],
+  "articles":[
+    {
+      "img":"images/user-01.png",
+      "link":"blog-single.html",
+      "title":"Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.",
+      "data":"Aug 19, 2013",
+      "author":"Sakura Haruno",
+      "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
+    },
+    {
+      "img": "images/user-02.png",
+      "link": "https://yaroslavw.github.io/",
+      "title": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed.",
+      "data": "Aug 9, 2013",
+      "author": "John Doe",
+      "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiu voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
+    },
+    {
+      "img": "images/user-03.png",
+      "link": "http://abcinblog.blogspot.com",
+      "title": "Quis autem vel esse eum iure reprehenderit qui in ea voluptate velit esse.",
+      "data": "Aug 7, 2013",
+      "author": "Naruto Uzumaki",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiu voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
+    }
+  ]
 }
 }
