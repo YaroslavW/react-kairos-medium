@@ -1,44 +1,37 @@
 import React from 'react';
+import ReactHtmlParser from "react-html-parser";
+import Slider from "react-slick";
 
-const Intro = () => {
+const Intro = ({data}) => {
+	if(data){
+		var slides = data.slider.map((val, index) => (
+      <li key={index}>
+        <div className="row">
+          <div className="col full">
+            <div className="slider-text">
+              <h2>{ReactHtmlParser(val.title)}</h2>
+              <p>{val.text}</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    ));
+  }
+    const settings = {
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      speed: 800
+    };
   return (
     <section id="intro">
-
 	   <div id="intro-slider" className="flexslider">
-
 		   <ul className="slides">
-
-			 
-			   <li>
-				   <div className="row">
-					   <div className="col full">
-						   <div className="slider-text">
-							   <h2>Hello, we are <span>kreative</span>. We specialize in branding, websites and photography.</h2>
-							   <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                        enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu.</p>
-						   </div>
-					   </div>
-				   </div>
-			   </li>
-
-          
-			   <li>
-				   <div className="row">
-					   <div className="col full">
-						   <div className="slider-text">
-							   <h2>Take a look at some of <a href="#portfolio" title="">our works</a> or <a href="#contact" title="">get in
-                        touch</a> to discuss how we can help you.</h2>
-							   <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti eos et accusamus.</p>
-						   </div>
-					   </div>
-				   </div>
-			   </li>
-
+          <Slider {...settings}>
+						 {slides}
+					</Slider>
 		   </ul>
 	   </div>
-
-
    </section>
   );
 };

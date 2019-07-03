@@ -26,5 +26,17 @@
         "title": "Contact"
       }
     ]
+},
+"intro":{
+  "slider":[
+    {
+      "title":"Hello, we are <span>kreative</span>. We specialize in branding, websites and photography.",
+      "text":"Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias except enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu."
+    },
+    {
+      "title": "Take a look at some of <a href='#portfolio' title=''>our works</a> or <a href='#contact' title=''>get in touch</a> to discuss how we can help you.",
+      "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti eos et accusamus."
+    }
+  ]
 }
 }

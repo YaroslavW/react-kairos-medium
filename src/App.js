@@ -39,7 +39,7 @@ class App extends Component {
   return (
     <div>
       <Header data={this.state.siteData.header}/>
-      <Intro />
+      <Intro data={this.state.siteData.intro} />
       <Services />
       <Portfolio />
       <Journal />
