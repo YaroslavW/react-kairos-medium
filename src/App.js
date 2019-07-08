@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import Header from './Components/Header';
 import CallToAction from "./Components/CallToAction";
-import About from './Components/About';
+import About from './Components/About/About';
 import Intro from './Components/Intro';
 import Portfolio from "./Components/Portfolio";
 import Journal from "./Components/Journal";

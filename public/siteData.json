@@ -128,19 +128,19 @@
     "head":"Our Work Process.",
     "items":[
       {
-        "title":"Explore.1",
+        "title":"Explore.2",
         "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
       },
       {
-        "title": "Design-1",
+        "title": "Design-2",
         "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
       },
       {
-        "title": "Develop-1",
+        "title": "Develop-2",
         "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
       },
       {
-        "title": "Deliver-1",
+        "title": "Deliver-2",
         "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
       }
     ]
@@ -274,14 +274,14 @@
       {
         "img":"images/client-img.png",
         "alt":"Michael Smith",
-        "name":"Michael Smith",
+        "name":"Michael Smith-1",
         "job":"CEO",
         "text":"Nascetur augue hac platea enim, egestas pulvinar vut. Pulvinar cum, ac eu, tristie acus duis in dictumst non integer. Elit, sed scelerisque odio tortor, sed platea dis. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit."
       },
       {
         "img": "images/client-img.png",
         "alt": "John Doe",
-        "name": "John Doe",
+        "name": "John Doe-1",
         "job": "Designer",
         "text": "Phasellus - ut augue at sapien bibendum bibendum amet magna. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit, amet consequat enim elit noneas."
       }
