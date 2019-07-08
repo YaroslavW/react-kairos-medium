@@ -43,7 +43,7 @@ class App extends Component {
       <Services data={this.state.siteData.services}/>
       <Portfolio />
       <Journal data={this.state.siteData.journal} />
-      <About />
+      <About data={this.state.siteData.about} />
       <CallToAction />
       <Map />
       <Contact />

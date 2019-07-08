@@ -115,5 +115,157 @@
       "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiu voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
     }
   ]
+},
+"about": {
+  "head":[
+    {
+      "title": "About-Us",
+      "desc": "This is what we are.1",
+      "intro":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.1"
+    }
+  ],
+  "work":{
+    "head":"Our Work Process.",
+    "items":[
+      {
+        "title":"Explore.1",
+        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
+      },
+      {
+        "title": "Design-1",
+        "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
+      },
+      {
+        "title": "Develop-1",
+        "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
+      },
+      {
+        "title": "Deliver-1",
+        "text": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.-1"
+      }
+    ]
+  },
+  "team":[
+    {
+      "img":{
+        "src":"images/team/team-img-01.jpg",
+        "alt":"team-1"
+      },
+      "name":"Naruto Uzumaki",
+      "special":"Director",
+      "soc_links":[
+        {
+          "link":"https://www.facebook.com/profile.php?id=100011231734286",
+          "icon":"icon-facebook"
+        },
+        {
+          "link": "https://twitter.com/JroslavK",
+          "icon": "icon-twitter"
+        },
+        {
+          "link": "https://www.facebook.com/Yaroslav-Web-Master-1446556072148794/?modal=admin_todo_tour",
+          "icon": "icon-google-plus-sign"
+        },
+        {
+          "link": "https://www.facebook.com/webmgroup/?ref=bookmarks",
+          "icon": "icon-linkedin"
+        },
+        {
+          "link": "https://github.com/YaroslavW",
+          "icon": "icon-skype"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "images/team/team-img-02.jpg",
+        "alt": "Sakura Haruno"
+      },
+      "name": "Sakura Haruno",
+      "special": "Director",
+      "soc_links": [
+        {
+          "link": "https://www.facebook.com/profile.php?id=100011231734286",
+          "icon": "icon-facebook"
+        },
+        {
+          "link": "https://twitter.com/JroslavK",
+          "icon": "icon-twitter"
+        },
+        {
+          "link": "https://www.facebook.com/Yaroslav-Web-Master-1446556072148794/?modal=admin_todo_tour",
+          "icon": "icon-google-plus-sign"
+        },
+        {
+          "link": "https://www.facebook.com/webmgroup/?ref=bookmarks",
+          "icon": "icon-linkedin"
+        },
+        {
+          "link": "https://github.com/YaroslavW",
+          "icon": "icon-skype"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "images/team/team-img-03.jpg",
+        "alt": "Sasuke Uchiha"
+      },
+      "name": "Sasuke Uchiha",
+      "special": "Senior Web Designer",
+      "soc_links": [
+        {
+          "link": "https://www.facebook.com/profile.php?id=100011231734286",
+          "icon": "icon-facebook"
+        },
+        {
+          "link": "https://twitter.com/JroslavK",
+          "icon": "icon-twitter"
+        },
+        {
+          "link": "https://www.facebook.com/Yaroslav-Web-Master-1446556072148794/?modal=admin_todo_tour",
+          "icon": "icon-google-plus-sign"
+        },
+        {
+          "link": "https://www.facebook.com/webmgroup/?ref=bookmarks",
+          "icon": "icon-linkedin"
+        },
+        {
+          "link": "https://github.com/YaroslavW",
+          "icon": "icon-skype"
+        }
+      ]
+    },
+    {
+      "img": {
+        "src": "images/team/team-img-01.jpg",
+        "alt": "Shikamaru Nara"
+      },
+      "name": "Shikamaru Nara",
+      "special": "Web Designer",
+      "soc_links": [
+        {
+          "link": "https://www.facebook.com/profile.php?id=100011231734286",
+          "icon": "icon-facebook"
+        },
+        {
+          "link": "https://twitter.com/JroslavK",
+          "icon": "icon-twitter"
+        },
+        {
+          "link": "https://www.facebook.com/Yaroslav-Web-Master-1446556072148794/?modal=admin_todo_tour",
+          "icon": "icon-google-plus-sign"
+        },
+        {
+          "link": "https://www.facebook.com/webmgroup/?ref=bookmarks",
+          "icon": "icon-linkedin"
+        },
+        {
+          "link": "https://github.com/YaroslavW",
+          "icon": "icon-skype"
+        }
+      ]
+    }
+  ]
 }
 }

@@ -6,7 +6,7 @@ const Journal = ({data}) => {
       var text = data.header[0]['text'];
 
       var articles = data.articles.map((val, index) => (
-        <article className="entry">
+        <article className="entry" key={index}>
           <div className="row entry-header">
             <div className="author-image">
               <img src={val.img} alt={val.author} />
