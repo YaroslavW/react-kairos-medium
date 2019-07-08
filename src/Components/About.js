@@ -30,6 +30,26 @@ const About = ({data}) => {
         </ul>
       </div>
     ));
+    var our_test_head = data.testimonials.header;
+    var our_test_text = data.testimonials.text;
+    var our_testimonials = data.testimonials.items.map((val, index) => (
+      <div className="col half">
+        <div className="client-author">
+          <img src={val.img} alt={val.alt} />
+          <div className="name">
+            <p>
+              {val.name}<span>{val.job}</span>
+            </p>
+          </div>
+        </div>
+
+        <div className="client-cite">
+          <p>
+            {val.text}
+          </p>
+        </div>
+      </div>
+    ));
   }
   return (
     <section id="about">
@@ -40,9 +60,7 @@ const About = ({data}) => {
         </div>
 
         <div className="col three-fourths">
-          <p className="intro">
-            {intro}
-          </p>
+          <p className="intro">{intro}</p>
         </div>
       </div>
 
@@ -52,9 +70,7 @@ const About = ({data}) => {
         </div>
       </div>
 
-      <div className="row process-wrap">
-        {item}
-      </div>
+      <div className="row process-wrap">{item}</div>
 
       <div className="row">
         <div className="col full">
@@ -62,59 +78,17 @@ const About = ({data}) => {
         </div>
       </div>
 
-      <div className="row team-wrap">
-        {team}
- 
-      </div>
+      <div className="row team-wrap">{team}</div>
 
       {/*  Testimonials */}
       <div className="row">
         <div className="col full section-head">
-          <h2>Testimonials</h2>
-          <p className="desc">What our clients are saying.</p>
+          <h2>{our_test_head}</h2>
+          <p className="desc">{our_test_text}</p>
         </div>
       </div>
 
-      <div className="row testimonials">
-        <div className="col half">
-          <div className="client-author">
-            <img src="images/client-img.png" alt="" />
-            <div className="name">
-              <p>
-                John Doe<span>Designer</span>
-              </p>
-            </div>
-          </div>
-
-          <div className="client-cite">
-            <p>
-              Phasellus - ut augue at sapien bibendum bibendum amet magna.
-              Aenean condimentum, lacus sit amet luctus lobortis, enim tellus
-              ultrices elit, amet consequat enim elit noneas.
-            </p>
-          </div>
-        </div>
-
-        <div className="col half">
-          <div className="client-author">
-            <img src="images/client-img.png" alt="" />
-            <div className="name">
-              <p>
-                Michael Smith<span>CEO</span>
-              </p>
-            </div>
-          </div>
-
-          <div className="client-cite">
-            <p>
-              Nascetur augue hac platea enim, egestas pulvinar vut. Pulvinar
-              cum, ac eu, tristie acus duis in dictumst non integer. Elit, sed
-              scelerisque odio tortor, sed platea dis. Aenean condimentum,
-              lacus sit amet luctus lobortis, enim tellus ultrices elit.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div className="row testimonials">{our_testimonials}</div>
       {/* Testimonials End */}
     </section>
   );

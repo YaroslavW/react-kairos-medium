@@ -266,6 +266,26 @@
         }
       ]
     }
-  ]
+  ],
+  "testimonials":{
+    "header":"Testimonials-1",
+    "text":"What our clients are saying.-1",
+    "items":[
+      {
+        "img":"images/client-img.png",
+        "alt":"Michael Smith",
+        "name":"Michael Smith",
+        "job":"CEO",
+        "text":"Nascetur augue hac platea enim, egestas pulvinar vut. Pulvinar cum, ac eu, tristie acus duis in dictumst non integer. Elit, sed scelerisque odio tortor, sed platea dis. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit."
+      },
+      {
+        "img": "images/client-img.png",
+        "alt": "John Doe",
+        "name": "John Doe",
+        "job": "Designer",
+        "text": "Phasellus - ut augue at sapien bibendum bibendum amet magna. Aenean condimentum, lacus sit amet luctus lobortis, enim tellus ultrices elit, amet consequat enim elit noneas."
+      }
+    ]
+  }
 }
 }
