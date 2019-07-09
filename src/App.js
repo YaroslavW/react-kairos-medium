@@ -41,7 +41,7 @@ class App extends Component {
       <Header data={this.state.siteData.header}/>
       <Intro data={this.state.siteData.intro} />
       <Services data={this.state.siteData.services}/>
-      <Portfolio />
+      <Portfolio data={this.state.siteData.portfolio} />
       <Journal data={this.state.siteData.journal} />
       <About data={this.state.siteData.about} />
       <CallToAction />

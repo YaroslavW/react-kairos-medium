@@ -82,14 +82,12 @@
     }
   ]
 },
-  "portpholio":{
-    "header":[
-      {
-        "title":"Portfolio",
-        "desc":"Check out our latest projects.",
-        "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
-      }
-    ],
+  "portfolio":{
+    "header":{   
+        "title":"Portfolio-1",
+        "desc":"Check out our latest projects.-1",
+        "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.-1"    
+    },
     "items":[
       {
         "img":"images/portfolio/cosmic-sneakers.jpg",

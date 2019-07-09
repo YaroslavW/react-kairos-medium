@@ -6,7 +6,7 @@ const Testimonials = ({data}) => {
     var our_test_text = data.testimonials.text;
     var our_testimonials = data.testimonials.items.map(
       (val, index) => (
-        <div className="col half">
+        <div key={index} className="col half">
           <div className="client-author">
             <img src={val.img} alt={val.alt} />
             <div className="name">

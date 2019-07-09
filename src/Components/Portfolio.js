@@ -1,19 +1,21 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Portfolio = ({data}) => {
+  if(data){
+    console.log(data.header.title)
+    var header = data.header.title;
+    var desc = data.header.desc;
+    var text = data.header.text;
+  }
   return (
     <section id="portfolio">
       <div className="row section-head">
         <div className="col full">
-          <h2>Portfolio</h2>
-          <p className="desc">Check out our latest projects.</p>
+          <h2>{header}</h2>
+          <p className="desc">{desc}</p>
 
           <p className="intro">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint occaecati cupiditate. At
-            vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium.
+            {text}
           </p>
         </div>
       </div>
