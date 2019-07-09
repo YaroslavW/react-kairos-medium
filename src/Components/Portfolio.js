@@ -35,7 +35,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* /2 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -50,7 +50,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 3 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -65,7 +65,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 4 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -80,7 +80,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 5 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -95,7 +95,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 6 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -110,7 +110,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 7 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -125,7 +125,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-
+{/* 8 */}
           <div className="col portfolio-item">
             <div className="item-wrap">
               {/* eslint-disable-next-line */}
@@ -169,7 +169,7 @@ const Portfolio = () => {
           <a className="close-reveal-modal">Close</a>
         </div>
       </div>
-
+{/* 2 */}
       <div id="modal-02" className="reveal-modal">
         <img
           className="scale-with-grid"
@@ -196,7 +196,7 @@ const Portfolio = () => {
           <a className="close-reveal-modal">Close</a>
         </div>
       </div>
-
+{/* 3 */}
       <div id="modal-03" className="reveal-modal">
         <img
           className="scale-with-grid"
@@ -223,7 +223,7 @@ const Portfolio = () => {
           <a className="close-reveal-modal">Close</a>
         </div>
       </div>
-
+{/* 4 */}
       <div id="modal-04" className="reveal-modal">
         <img
           className="scale-with-grid"
@@ -250,7 +250,7 @@ const Portfolio = () => {
           <a className="close-reveal-modal">Close</a>
         </div>
       </div>
-
+{/* 5 */}
       <div id="modal-05" className="reveal-modal">
         <img
           className="scale-with-grid"
@@ -304,7 +304,7 @@ const Portfolio = () => {
           <a className="close-reveal-modal">Close</a>
         </div>
       </div>
-
+{/* 7 */}
       <div id="modal-07" className="reveal-modal">
         <img
           className="scale-with-grid"

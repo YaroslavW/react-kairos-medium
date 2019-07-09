@@ -82,6 +82,105 @@
     }
   ]
 },
+  "portpholio":{
+    "header":[
+      {
+        "title":"Portfolio",
+        "desc":"Check out our latest projects.",
+        "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium."
+      }
+    ],
+    "items":[
+      {
+        "img":"images/portfolio/cosmic-sneakers.jpg",
+        "alt":"Cosmic Sneakers",
+        "title":"Cosmic Sneakers",
+        "img_modal":"images/portfolio/modals/m-cosmic-sneakers.jpg",
+        "alt_modal":"The Cosmic Sneakers<",
+        "title_modal":"The Cosmic Sneakers<",
+        "text_modal":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal":"https://www.facebook.com/profile.php?id=100011231734286",
+        "category_modal":"Branding, Web Design"
+      },
+      {
+        "img": "images/portfolio/milk-splash.jpg",
+        "alt": "Milk Splash",
+        "title": "Milk Splash",
+        "img_modal": "images/portfolio/modals/m-milk-splash.jpg",
+        "alt_modal": "Milk Splash<",
+        "title_modal": "Milk Splash<",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://github.com/YaroslavW",
+        "category_modal": "Branding, Web Design"
+      },
+      {
+        "img": "images/portfolio/eve.jpg",
+        "alt": "Eve",
+        "title": "Eve",
+        "img_modal": "images/portfolio/modals/m-eve.jpg",
+        "alt_modal": "Eve",
+        "title_modal": "Eve",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://yaroslavw.github.io/",
+        "category_modal": "Photography, Branding"
+      },
+      {
+        "img": "images/portfolio/sneaker-splash.jpg",
+        "alt": "Sneaker Splash<",
+        "title": "Sneaker Splash<",
+        "img_modal": "images/portfolio/modals/m-sneaker-splash.jpg",
+        "alt_modal": "Sneaker Splash<",
+        "title_modal": "Sneaker Splash<",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "http://abcinblog.blogspot.com/",
+        "category_modal": "Photography, Branding"
+      },
+      {
+        "img": "images/portfolio/judah.jpg",
+        "alt": "Judah",
+        "title": "Judah",
+        "img_modal": "images/portfolio/modals/m-judah.jpg",
+        "alt_modal": "Judah",
+        "title_modal": "Judah",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://www.facebook.com/webmgroup/?eid=ARBjxnRcqZcmhbUaK6ADdpa2vp5f26x-X_d3EcWkJHCsg9aFjEYp7j46vLSjnPna6HzsDUBwiYFiJKfD&timeline_context_item_type=intro_card_work&timeline_context_item_source=100011231734286&fref=tag",
+        "category_modal": "Photography, Web Design"
+      },
+      {
+        "img": "images/portfolio/vector-flower.jpg",
+        "alt": "Vector Flower",
+        "title": "Vector Flower",
+        "img_modal": "images/portfolio/modals/m-vector-flower.jpg",
+        "alt_modal": "Vector Flower",
+        "title_modal": "Vector Flower",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://www.facebook.com/groups/1786288918273718/",
+        "category_modal": "Branding, Web Design"
+      },
+      {
+        "img": "images/portfolio/clock.jpg",
+        "alt": "Clock",
+        "title": "Clock",
+        "img_modal": "images/portfolio/modals/m-clock.jpg",
+        "alt_modal": "Clock",
+        "title_modal": "Clock",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://yaroslavw.github.io/",
+        "category_modal": "Branding, Web Design"
+      },
+      {
+        "img": "images/portfolio/fields.jpg",
+        "alt": "Fields",
+        "title": "Fields",
+        "img_modal": "images/portfolio/modals/m-fields.jpg",
+        "alt_modal": "Fields",
+        "title_modal": "Fields",
+        "text_modal": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "link_modal": "https://yaroslavw.github.io/",
+        "category_modal": "Photography"
+      }
+    ]
+  },
 "journal":{
   "header":[
     {
