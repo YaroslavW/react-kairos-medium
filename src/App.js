@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import CallToAction from "./Components/CallToAction";
 import About from './Components/About/About';
 import Intro from './Components/Intro';
-import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import Journal from "./Components/Journal";
 import Services from "./Components/Services";
 import Footer from './Components/Footer';

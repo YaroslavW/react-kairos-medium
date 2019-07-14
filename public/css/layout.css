@@ -353,7 +353,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* Reveal Modal Plugin Styles
 ---------------------------------------------------*/
-.reveal-modal-bg {
+/* .reveal-modal-bg {
    position: fixed;
 	height: 100%;
 	width: 100%;
@@ -365,7 +365,7 @@ ul#nav li.active a { color: #11ABB0; }
 	left: 0;
 }
 .reveal-modal {
-   visibility: hidden;
+   /* visibility: hidden; */
 	top: 100px;
 	left: 50%;
 	margin-left: -300px;
@@ -414,7 +414,7 @@ ul#nav li.active a { color: #11ABB0; }
    cursor: pointer;
 }
 .reveal-modal a:hover {	color: #00CCCC; }
-.reveal-modal a.close-reveal-modal { margin-left: 28px; }
+.reveal-modal a.close-reveal-modal { margin-left: 28px; } */
 
 
 /* ================================================================== */
